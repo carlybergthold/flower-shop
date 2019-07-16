@@ -1,12 +1,15 @@
 ﻿using System;
 
-namespace lightning_exercises
+namespace FlowerShop
 {
     class Program
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            var redTulip = new Tulip() { Color = "red" };
+            Console.WriteLine(redTulip.Describe());
+
+            Flowershop myShop = new Flowershop();
         }
     }
 }
